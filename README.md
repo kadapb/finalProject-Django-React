@@ -56,3 +56,8 @@ I would like to express my sincere gratitude to the lecturers at CodeAcademy for
 A special thanks to my fellow students for contributing to a vibrant and fun learning environment. Your camaraderie have made this journey enjoyable and memorable.
 
 Thank you, CodeAcademy, for providing an enriching learning experience that goes beyond the curriculum.
+
+![login](https://github.com/kadapb/finalProject-Django-React/assets/141760591/3c5ae3fc-e0d9-4fba-be7b-cfdd26174d57)
+![Dashboard](https://github.com/kadapb/finalProject-Django-React/assets/141760591/c0e30903-926b-4c7f-8599-4189206f677e)
+![Tables](https://github.com/kadapb/finalProject-Django-React/assets/141760591/6d88333c-9d11-4826-9035-ebfa617f6e14)
+
