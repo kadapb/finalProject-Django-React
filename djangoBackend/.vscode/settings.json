@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.shell.windows": null,
+    "python.pythonPath": "X:\\finalProjectCA\\venv\\Scripts\\python.exe",
+    "python.venvPath": "X:\\finalProjectCA\\venv",
+    "python.autoComplete.extraPaths": ["X:\\finalProjectCA\\venv\\Lib\\site-packages"],
+    "python.analysis.extraPaths": ["X:\\finalProjectCA\\venv\\Lib\\site-packages"],
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.linting.enabled": true,
+}

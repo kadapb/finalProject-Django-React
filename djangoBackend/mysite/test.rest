@@ -1,0 +1,74 @@
+###        LOGIN 
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{"username": "what", "password": "psw123"}
+
+###         SIGNUP
+POST http://localhost:8000/signup
+Content-Type: application/json
+
+{"username": "what", "password": "psw123", "email":"zack@gamil.com"}
+
+###         testing auth-token
+GET http://localhost:8000/test_token
+Content-Type: application/json
+Authorization: Token 202600509b3e78b2523fb8fc87e35359568c7a94
+
+###         ALL repairs
+GET http://localhost:8000/repairs
+Content-Type: application/json
+Authorization: Token eae7a771c696f9c82294971dd32c716758f7f40b
+
+### Same ENDPOINT, just with a filter for ALL repairs inside date INTERVAL.
+GET http://127.0.0.1:8000/repairs/?start_date=2023-12-11&end_date=2023-12-15
+Content-Type: application/json
+
+### repairs associated with a specific CLIENT ID
+GET http://localhost:8000/repairs/MTaGM54ClV
+Content-Type: application/json
+
+### ALL Clients
+GET http://localhost:8000/clients
+Content-Type: application/json
+
+### ALL Clients filtered for date INTERVAL.
+GET http://127.0.0.1:8000/clients/?start_date=2023-12-01&end_date=2023-12-15
+Content-Type: application/json
+
+### GET one SPECIFIC Client based on dziuma ID
+PUT http://127.0.0.1:8000/clients/MTaGM54ClV/
+Content-Type: application/json
+
+### GET one SPECIFIC Repair based on repair ID
+GET http://127.0.0.1:8000/repair/3/
+Content-Type: application/json
+
+### PUT or PATCH to edit/update repair based on ID
+PATCH http://127.0.0.1:8000/repair/3/
+Content-Type: application/json
+
+{"date_recieved": "2023-12-10", "extra_fee": 111.0}
+
+
+### DELETE repair based on ID
+DELETE http://127.0.0.1:8000/repair/2/
+Content-Type: application/json
+
+### POST to create a new Client
+POST http://127.0.0.1:8000/create/client/
+Content-Type: application/json
+
+{
+  "first_name": "Juste",
+  "last_name": "Buste",
+  "phone": 86636451,
+  "email": "mwhere@when.com"
+}
+
+### generating auth-token
+POST http://127.0.0.1:8000/create/token/
+Content-Type: application/json
+
+{"username": "admin", "password": "admin"}
+
